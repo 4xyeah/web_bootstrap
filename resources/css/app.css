@@ -1,0 +1,45 @@
+body {
+	background: #f2f2e7;
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	max-width: 100%;
+	height: 100%;
+}
+
+#mainNavbar {
+	font-weight: 400;
+	font-size: 1.1rem;
+}
+
+#mainNavbar .navbar-brand {
+	color: green;
+	font-size: 1.5rem;
+}
+
+.nav-link:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+.prText h1 {
+	color: grey;
+	font-weight: 400;
+	letter-spacing: 0.4rem;
+}
+
+.prText p {
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
+.desaturate {
+	filter: saturate(80%);
+	opacity: 0.8;
+}
+
+.scrolled {
+	background-color: rgba(204, 204, 255, 0.911);
+	transition: background 0.2s;
+}
